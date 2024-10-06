@@ -46,9 +46,12 @@
 # upper()	Converts a string into upper case
 # zfill()	Fills the string with a specified number of 0 values at the beginning
 
-text = "hello world"
+text = "hello world \n"
 print(text.upper())
 print(text.lower())
 print(text.capitalize())
 print(text.count("l"))
 
+# string multiplication
+times = 4
+print(text * times)
